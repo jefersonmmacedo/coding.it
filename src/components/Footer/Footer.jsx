@@ -1,7 +1,7 @@
 import InstaImg from '../../assets/insta.svg';
 import FaceImg from '../../assets/face.svg';
 import WhatsImg from '../../assets/whats.svg';
-import logo2Img from '../../assets/logoFooter2.svg';
+import logo2Img from '../../assets/logoFooter2.png';
 
 import './footer.css'
  

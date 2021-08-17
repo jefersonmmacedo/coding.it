@@ -2,7 +2,7 @@ import './aside.css'
 import aboutImg from '../../assets/about.png'
 const Aside = function() {
     return (
-       <div className="aside">
+       <div id="coding" className="aside">
             
            <div>
             <img src={aboutImg} alt="about" />

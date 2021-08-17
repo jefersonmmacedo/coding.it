@@ -6,7 +6,7 @@ import camararb from '../../assets/camararb.png'
 
 const Benefits = function() {
     return (
-        <div id="servicos" className="content2">
+        <div id="cases" className="content2">
 
 
            <div className="head-Benefits">

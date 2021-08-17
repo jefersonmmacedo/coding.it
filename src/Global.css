@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --background: #ffffff;
+  --text:#1B1E6B;
+  --dot: #00DBA1;
+}
+
+
+h1, h2, h3, h4 h5, h6, p, button {
+  font-family: Ubuntu;
+  font-weight: 400;
+}
+
+.global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  font-family: Ubuntu;
+  
+}
+
+.dot{
+  color: var(--dot)
+}
+
+

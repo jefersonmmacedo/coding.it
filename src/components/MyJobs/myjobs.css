@@ -1,0 +1,47 @@
+.MyJobs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--text);
+    color: var(--background);
+    border-radius: 30px 0px 30px 0px;
+}
+
+.MyJobs img {
+    margin: 0px 25px;
+    width: 650px;
+}
+
+.MyJobs .text-job {
+    padding: 50px;
+}
+
+.MyJobs .text-job h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.MyJobs .text-job p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.MyJobs .text-job a {
+    text-decoration: none;
+}
+
+.MyJobs .text-job .btn {
+    padding: 10px 40px;
+    border-radius: 40px;
+    background: var(--background);
+    color: var(--text);
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 500;
+ 
+}

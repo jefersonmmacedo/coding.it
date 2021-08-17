@@ -1,0 +1,27 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: var(--text);
+    z-index: 1;
+}
+
+.contact .info-contact{
+    color: var(--background);
+    padding: 40px 60px;
+}
+
+.contact .info-contact h1 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.contact .info-contact p {
+    padding: 10px;
+    font-size: 18px;
+}
+

@@ -1,0 +1,66 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: flex-start;
+    width: 95%;
+    border:2px solid var(--dot);
+    border-radius: 30px;
+    margin-top: -35px;
+    margin-bottom: -50px;
+    padding: 30px 0px 100px 0px;
+    z-index: 0;
+}
+
+.head-case h1{
+    margin-left:50px ;
+    margin-top: 75px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.head-case .head-line{
+    margin-left:50px ;
+    margin-top: -20px;
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--dot);
+}
+
+.content .case {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cases {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 360px;
+    height: 170px;
+    border: 1px solid #fff;
+}
+.cases:hover {
+    border: 1px solid rgb(14,16,84, 0.2);
+}
+
+.cases .img-case {
+    width: 70px;
+    margin: 0px 10px 0px 0px;
+    color: var(--text);
+}
+
+.cases .img-case img {
+    width: 45px;
+}
+
+.cases .info-case .title{
+    font-weight: 500;
+}

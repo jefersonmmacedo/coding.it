@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+}
+
+.header .text-first-header {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -20px;
+    
+}
+
+.header .logo-header {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+font-weight: 500;
+}
+
+.header img {
+    height: 50px;
+    margin-top: 50px;
+}
+
+.header .text-botton-header {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .btn {
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: 2px solid var(--dot);
+    background: none;
+    color: var(--dot);
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.header .bold-header{
+    font-weight: 700;
+  }
+

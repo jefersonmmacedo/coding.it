@@ -1,6 +1,6 @@
 
 import './Global.css';
-import {Header} from './components/Header/Header'
+import {Header} from './components/Header/Header';
 import Navigator from './components/Navigator/Navigator';
 import { Aside } from './components/Aside/Aside';
 import { Case } from './components/Case/Case';

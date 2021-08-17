@@ -13,7 +13,7 @@ const Case = function() {
        <div className="case">
            <div className="cases">
            <div className="img-case">
-               <img src={smatphoneLogo} alt="smartphone" />
+               <img src={monitoreLogo} alt="smartphone" />
            </div>
             <div className="info-case">
                 <h3 className="title">Criação de sites</h3>
@@ -25,7 +25,7 @@ const Case = function() {
 
            <div className="cases">
            <div className="img-case">
-               <img src={monitoreLogo} alt="smartphone" />
+               <img src={slidersLogo} alt="smartphone" />
            </div>
             <div className="info-case">
                 <h3 className="title">Sistemas web</h3>
@@ -37,7 +37,7 @@ const Case = function() {
 
            <div className="cases">
            <div className="img-case">
-               <img src={slidersLogo} alt="smartphone" />
+               <img src={smatphoneLogo} alt="smartphone" />
            </div>
             <div className="info-case">
                 <h3 className="title">Aplicativos</h3>
